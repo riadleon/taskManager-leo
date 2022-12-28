@@ -21,10 +21,13 @@ function MainMenu() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <Link className="nav-link" to="/">
-            <li className="nav-item">Tasks</li>
+            <li className="nav-item">My Tasks</li>
           </Link>
           <Link className="nav-link" to="/newtask">
             <li className="nav-item">New Task</li>
+          </Link>
+          <Link className="nav-link" to="/cotask">
+            <li className="nav-item">Completed Task</li>
           </Link>
         </ul>
       </div>

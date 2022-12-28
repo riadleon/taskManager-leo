@@ -5,6 +5,7 @@ import MainMenu from './components/MainMenu/MainMenu';
 import TasksList from './components/TasksList/TasksList';
 import TaskForm from './components/TaskForm/TaskForm';
 
+
 function App() {
   return (
     <>
@@ -13,6 +14,9 @@ function App() {
         <Switch>
           <Route path="/newtask">
             <TaskForm />
+          </Route>
+          <Route path="/cotask">
+            <TasksList />
           </Route>
           <Route path="/">
             <TasksList />
